@@ -14,13 +14,8 @@ body > h1 {
   font-size: 4rem;
   line-height: 5rem;
   margin-top: 3rem;
+  margin-bottom: 1rem;
   text-align: center;
-}
-
-body > p {
-  text-align: center;
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
 }
 
 #container {
@@ -57,4 +52,23 @@ body > p {
 
 #create-task:hover {
   background-color: #1a7288;
+}
+
+#tasks {
+    width: 100%;;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.task {
+  width: 100%;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delete {
+  cursor: pointer;
 }
